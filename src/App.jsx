@@ -6,7 +6,7 @@ function App() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [content, setContent] = useState("");
-  const url = " http://backend:5000/send-mail";
+  const url = "https://backend-tt2b.onrender.com/send-mail";
 
   async function sendEmail(event) {
     event.preventDefault();
