@@ -1,0 +1,146 @@
+/* General Styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  padding: 30px 20px;
+  background: #333;
+}
+
+h1, h2, h3 {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: #097969;
+}
+a:hover {
+  color: black;
+}
+
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  background: #333;
+  color: #097969;
+  padding: 30px 20px;
+}
+
+.hero h1 {
+  font-size: 40px;
+  color: white;
+}
+
+.hero p {
+  font-size: 18px;
+}
+#pf {
+  width: 300px; 
+  height: auto;
+  border-radius: 50%; 
+  object-fit: cover;
+}
+
+.cta-btn {
+  background-color: #12f0ce;;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.cta-btn:hover {
+  background-color: gray;
+}
+
+/* About Section */
+.about {
+  background-color: black;
+  color: white;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+}
+
+.skills-list li {
+  display: inline-block;
+  margin: 5px 15px;
+  padding: 8px 15px;
+  background-color: #097969;
+  color: white;
+  border-radius: 5px;
+}
+#proj {
+  color: white;
+  float: left;
+}
+/* Projects Section */
+.projects {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project-card {
+  width: 200px;
+  background-color: #333;
+  margin: 15px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.project-card a {
+  font-weight: bold;
+}
+
+#contact {
+  background-color: #097969;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input, .contact-form textarea {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.submit-btn {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: black;
+}
+
+/* Footer Section */
+.footer {
+  background-color: #333;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
