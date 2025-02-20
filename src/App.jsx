@@ -24,7 +24,8 @@ function App() {
         const response = await fetch(url, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify(data)
+          body: JSON.stringify(data),
+          mode: "cors",
         });
 
         const result = await response.json();
@@ -46,7 +47,7 @@ function App() {
         <img src={myImage} alt="Description" id="pf" />
         <h1>Hi, I'm Adnan Obuya</h1>
         <p>I'm a passionate Software Developer.</p>
-        <button className="cta-btn"><a href="https://github.com/Adnangad/diabetes_predictor">View my work</a></button>
+        <button className="cta-btn"><a href="https://github.com/Adnangad">View my work</a></button>
       </section>
       <section id="about" className="about">
         <h2>Who am I?</h2>
