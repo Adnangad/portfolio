@@ -51,19 +51,14 @@ function App() {
       </section>
       <section id="about" className="about">
         <h2>Who am I?</h2>
-        <p>Results-driven backend-focused software engineer with expertise in
-          Python, Django, Flask, and Node.js. Passionate about building scalable
-          APIs, AI-powered applications, and real-time systems. Experienced in
-          designing secure, efficient, and data-driven solutions. Strong problem-
-          solving skills, eager to tackle technical challenges and optimize system
-          performance.</p>
+        <p>Motivated and detail-oriented Junior Fullstack Developer with a strong emphasis on backend development. Skilled in building and maintaining scalable web applications using technologies such as Node.js, Express, Django REST Framework, and PostgreSQL. Adept at working with Git, handling API design, and implementing clean, maintainable code. Comfortable with modern development practices and always eager to learn new tools and frameworks. Demonstrates a proactive approach to problem-solving, code optimization, and collaboration within agile teams. Recently gaining familiarity with frontend and design tools like Figma to better support fullstack workflows.</p>
         <h2>Skills</h2>
         <div className="skills-list">
           <h4>Frontend:</h4>
           <ul>
             <li>JavaScript (ES6+)</li>
             <li>React.js</li>
-            <li>TypeScript (basic)</li>
+            <li>TypeScript</li>
             <li>HTML5 & CSS3</li>
           </ul>
 
@@ -99,10 +94,26 @@ function App() {
       </section>
       <section id="experience" className="experience">
         <h2>Experience</h2>
-
+        <div className="experience-item">
+          <h3>Full Stack Developer Intern - Goymarey Software Solutions</h3>
+          <p className="date">APR 2025 - JULY 2025</p>
+          <ul>
+            <li>Developed and deployed scalable web applications using React,
+              Tailwind CSS, and TypeScript (frontend) and Node.js, Express.js, and
+              GraphQL (backend).</li>
+            <li>Designed and maintained PostgreSQL databases, leveraging PrismaORM for efficient data operations.</li>
+            <li>Integrated LinkedIn and Twitter APIs into the companys CRM,
+              enabling users to view analytics, post content, delete posts, and
+              analyze comment sentiment</li>
+            <li>Led backend development for a comprehensive school management
+              system, handling core functionality and system architecture
+              Wrote clean, maintainable, and well-documented code following
+              industry best practices</li>
+          </ul>
+        </div>
         <div className="experience-item">
           <h3>Python Developer Intern - Oasis Infobyte</h3>
-          <p className="date">OCT 2024 - DEC 2024</p>
+          <p className="date">SEP 2024 - NOV 2024</p>
           <ul>
             <li>Developed backend APIs using Django and Flask, implementing authentication and CRUD operations.</li>
             <li>Built and deployed Dockerized microservices for internal use.</li>
