@@ -20,11 +20,11 @@ a {
 }
 
 a:hover {
-  color: #0ae5b4;
+  color: white;
 }
 
 section {
-  padding: 60px 20px;
+  padding: 20px 20px;
 }
 
 /* Hero Section */
@@ -66,10 +66,10 @@ section {
 }
 
 .cta-btn:hover {
-  background-color: #0ae5b4;
+  background-color: white;
 }
 
-/* About Section */
+
 .about {
   background-color: #222;
 }
@@ -88,6 +88,15 @@ section {
   color: #ccc;
 }
 
+.skills {
+  background-color: #0c0c14;
+  width: fit-content;
+  height: 800px;
+}
+.skills h2 {
+  text-align: center;
+}
+
 .skills-list {
   list-style: none;
   padding: 0;
@@ -102,7 +111,10 @@ section {
   border-radius: 5px;
 }
 
-/* Projects Section */
+.experience-item:hover {
+  transform: translateY(-5px);
+}
+
 .projects {
   display: flex;
   flex-wrap: wrap;
@@ -149,6 +161,7 @@ section {
 
 .project-link:hover {
   background-color: #0ae5b4;
+  color: white;
 }
 
 /* Experience Section */
@@ -158,7 +171,7 @@ section {
   padding: 60px 20px;
   text-align: center;
   border: 1px black;
-  background-color: #000;
+  background-color: #222;
 }
 
 .experience h2 {
@@ -245,6 +258,7 @@ h2 {
 
 .submit-btn:hover {
   background-color: #0ae5b4;
+  color: white;
 }
 
 /* Footer Section */

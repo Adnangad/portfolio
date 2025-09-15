@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react'
 import myImage from './images/pf.jpeg'
 import './App.css'
+import TypeWritter from './Typewriter';
+import Header from './Header';
 
 function App() {
   const [name, setName] = useState("");
@@ -43,86 +45,101 @@ function App() {
   }
   return (
     <>
+      <Header></Header>
       <section className="hero">
         <img src={myImage} alt="Description" id="pf" />
-        <h1>Hi, I'm Adnan Obuya</h1>
-        <p>I'm a passionate Software Developer.</p>
+        <TypeWritter text={"Hi, I'm Adnan Obuya.\nI am a software developer who builds exceptional and user friendly interfaces"} delay={50}></TypeWritter>
         <button className="cta-btn"><a href="https://github.com/Adnangad" id="mywork">View my work</a></button>
       </section>
       <section id="about" className="about">
-        <h2>Who am I?</h2>
+        <h2>🧠 About Me</h2>
         <p>Motivated and detail-oriented Junior Fullstack Developer with a strong emphasis on backend development. Skilled in building and maintaining scalable web applications using technologies such as Node.js, Express, Django REST Framework, and PostgreSQL. Adept at working with Git, handling API design, and implementing clean, maintainable code. Comfortable with modern development practices and always eager to learn new tools and frameworks. Demonstrates a proactive approach to problem-solving, code optimization, and collaboration within agile teams. Recently gaining familiarity with frontend and design tools like Figma to better support fullstack workflows.</p>
-        <h2>Skills</h2>
+      </section>
+      <section id='skills' className='skills'>
+        <h2>🛠️ Skills</h2>
         <div className="skills-list">
           <h4>Frontend:</h4>
           <ul>
-            <li>JavaScript (ES6+)</li>
-            <li>React.js</li>
-            <li>TypeScript</li>
-            <li>HTML5 & CSS3</li>
+            <li>JavaScript (ES6+), TypeScript</li>
+            <li>React.js, Next.js</li>
+            <li>HTML5, CSS3, Tailwind CSS, Bootstrap</li>
           </ul>
 
           <h4>Backend:</h4>
           <ul>
-            <li>Node.js</li>
-            <li>Express.js</li>
-            <li>Python</li>
-            <li>php</li>
-            <li>Laravel</li>
-            <li>GraphQL</li>
-            <li>FastAPI</li>
-            <li>Django</li>
-            <li>Flask</li>
-            <li>REST APIs</li>
+            <li>Python (Django, Flask, FastAPI)</li>
+            <li>Node.js (Express.js, Prisma ORM)</li>
+            <li>PHP (Laravel)</li>
+            <li>REST APIs & GraphQL</li>
           </ul>
 
           <h4>Databases:</h4>
           <ul>
-            <li>PostgreSQL</li>
-            <li>MySQL</li>
-            <li>Redis</li>
-            <li>MongoDB (basic)</li>
+            <li>PostgreSQL, MySQL</li>
+            <li>MongoDB (basic), Redis</li>
           </ul>
 
-          <h4>Tools & Other:</h4>
+          <h4>DevOps & Tools:</h4>
           <ul>
             <li>Docker</li>
             <li>Git & GitHub</li>
             <li>Linux CLI</li>
           </ul>
+
+          <h4>Data, AI & Automation:</h4>
+          <ul>
+            <li>Web Scraping & Automation (Selenium, BeautifulSoup)</li>
+            <li>Pandas & Scikit-learn (ML fundamentals)</li>
+            <li>Large Language Models (LLaMA, RAG implementation)</li>
+          </ul>
         </div>
       </section>
       <section id="experience" className="experience">
         <h2>Experience</h2>
-        <div className="experience-item">
-          <h3>Full Stack Developer Intern - Goymarey Software Solutions</h3>
-          <p className="date">APR 2025 - JULY 2025</p>
-          <ul>
-            <li>Developed and deployed scalable web applications using React,
-              Tailwind CSS, and TypeScript (frontend) and Node.js, Express.js, and
-              GraphQL (backend).</li>
-            <li>Designed and maintained PostgreSQL databases, leveraging PrismaORM for efficient data operations.</li>
-            <li>Integrated LinkedIn and Twitter APIs into the companys CRM,
-              enabling users to view analytics, post content, delete posts, and
-              analyze comment sentiment</li>
-            <li>Led backend development for a comprehensive school management
-              system, handling core functionality and system architecture
-              Wrote clean, maintainable, and well-documented code following
-              industry best practices</li>
-          </ul>
-        </div>
-        <div className="experience-item">
-          <h3>Python Developer Intern - Oasis Infobyte</h3>
-          <p className="date">SEP 2024 - NOV 2024</p>
-          <ul>
-            <li>Developed backend APIs using Django and Flask, implementing authentication and CRUD operations.</li>
-            <li>Built and deployed Dockerized microservices for internal use.</li>
-            <li>Collaborated in Agile teams to deliver real-time chat applications using WebSocket protocols.</li>
-          </ul>
+        <div className='expCont' style={{ display: "flex", gap: "20px", alignItems: "flex-start" }}>
+          <div className="experience-item">
+            <h3>Full Stack Developer Intern - Goymarey Software Solutions</h3>
+            <p className="date">APR 2025 - JULY 2025</p>
+            <ul>
+              <li>Developed and deployed scalable web applications using React,
+                Tailwind CSS, and TypeScript (frontend) and Node.js, Express.js, and
+                GraphQL (backend).</li>
+              <li>Designed and maintained PostgreSQL databases, leveraging PrismaORM for efficient data operations.</li>
+              <li>Integrated LinkedIn and Twitter APIs into the companys CRM,
+                enabling users to view analytics, post content, delete posts, and
+                analyze comment sentiment</li>
+              <li>Led backend development for a comprehensive school management
+                system, handling core functionality and system architecture
+                Wrote clean, maintainable, and well-documented code following
+                industry best practices</li>
+            </ul>
+          </div>
+          <div className="experience-item">
+            <h3>Python Developer Intern - Oasis Infobyte</h3>
+            <p className="date">SEP 2024 - NOV 2024</p>
+            <ul>
+              <li>Developed backend APIs using Django and Flask, implementing authentication and CRUD operations.</li>
+              <li>Built and deployed Dockerized microservices for internal use.</li>
+              <li>Collaborated in Agile teams to deliver real-time chat applications using WebSocket protocols.</li>
+            </ul>
+          </div>
         </div>
       </section>
       <h2>Sample Projects:</h2>
       <section id="projects" className="projects">
+        <div className="project-card">
+          <h3>Interactive News QA System</h3>
+          <p>🔹 Developed an interactive Question-Answering system capable of responding to user queries with real-time news insights.</p>
+          <p>🔹 Implemented Selenium and BeautifulSoup to scrape news data from Al Jazeera, storing and utilizing it to enhance LLaMA LLM responses via RAG (Retrieval-Augmented Generation).</p>
+          <p>🔹 Built a Django backend to manage data, scraping workflows, and API endpoints.</p>
+          <p>🔹 Designed a Next.js frontend for a responsive and user-friendly interface.</p>
+          <p>🔹 Enabled the system to provide accurate, up-to-date answers on global news topics.</p>
+
+          <a className="project-link" href="https://github.com/Adnangad/news-qa-system" target="_blank" rel="noopener noreferrer">
+            View Project on GitHub
+          </a>
+
+        </div>
         <div className="project-card">
           <h3>Diabetes Prediction App</h3>
           <p>🔹 Developed an AI-powered diabetes prediction web app using Flask and Scikit-learn.</p>
