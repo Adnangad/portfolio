@@ -48,29 +48,35 @@ function App() {
       <Header></Header>
       <section className="hero">
         <img src={myImage} alt="Description" id="pf" />
-        <TypeWritter text={"Hi, I'm Adnan Obuya.\nI am a software developer who builds exceptional and user friendly interfaces"} delay={50}></TypeWritter>
+        <TypeWritter text={"Hi, I'm Adnan Obuya.\nI am a software engineer who builds exceptional and user friendly interfaces"} delay={50}></TypeWritter>
         <button className="cta-btn"><a href="https://github.com/Adnangad" id="mywork">View my work</a></button>
       </section>
       <section id="about" className="about">
-        <h2>🧠 About Me</h2>
-        <p>Motivated and detail-oriented Junior Fullstack Developer with a strong emphasis on backend development. Skilled in building and maintaining scalable web applications using technologies such as Node.js, Express, Django REST Framework, and PostgreSQL. Adept at working with Git, handling API design, and implementing clean, maintainable code. Comfortable with modern development practices and always eager to learn new tools and frameworks. Demonstrates a proactive approach to problem-solving, code optimization, and collaboration within agile teams. Recently gaining familiarity with frontend and design tools like Figma to better support fullstack workflows.</p>
+        <p>
+          Backend-focused Software Engineer passionate about building reliable, scalable, and high-performance systems using <strong>Node.js</strong>, <strong>TypeScript</strong>, <strong>Express.js</strong>, and <strong>PostgreSQL</strong>. I enjoy designing clean API architectures, optimizing backend performance, and writing maintainable, production-grade code that supports real-world impact.
+        </p>
+        <p>
+          My interest in technology started at a young age—taking apart electronics and experimenting with code—which shaped my curiosity and problem-solving mindset. Today, I channel that same curiosity into engineering robust backend services and exploring system design best practices.
+        </p>
+        <p>
+          I thrive in collaborative, agile environments and take pride in delivering thoughtful, well-tested code. While my core focus is backend development, I maintain fullstack awareness through experience with tools like <strong>Django REST Framework</strong> and <strong>React</strong>, enabling seamless integration across the stack when needed.
+        </p>
       </section>
       <section id='skills' className='skills'>
         <h2>🛠️ Skills</h2>
         <div className="skills-list">
+          <h4>Backend:</h4>
+          <ul>
+            <li>Node.js (Express.js, TypeScript, Prisma ORM)</li>
+            <li>Python (Django, Flask, FastAPI)</li>
+            <li>PHP (Laravel)</li>
+            <li>REST APIs & GraphQL</li>
+          </ul>
           <h4>Frontend:</h4>
           <ul>
             <li>JavaScript (ES6+), TypeScript</li>
             <li>React.js, Next.js</li>
             <li>HTML5, CSS3, Tailwind CSS, Bootstrap</li>
-          </ul>
-
-          <h4>Backend:</h4>
-          <ul>
-            <li>Python (Django, Flask, FastAPI)</li>
-            <li>Node.js (Express.js, Prisma ORM)</li>
-            <li>PHP (Laravel)</li>
-            <li>REST APIs & GraphQL</li>
           </ul>
 
           <h4>Databases:</h4>
@@ -98,12 +104,10 @@ function App() {
         <h2>Experience</h2>
         <div className='expCont' style={{ display: "flex", gap: "20px", alignItems: "flex-start" }}>
           <div className="experience-item">
-            <h3>Full Stack Developer Intern - Goymarey Software Solutions</h3>
+            <h3>Backend Developer Intern(Fullstack exposure) - Goymarey Software Solutions</h3>
             <p className="date">APR 2025 - JULY 2025</p>
             <ul>
-              <li>Developed and deployed scalable web applications using React,
-                Tailwind CSS, and TypeScript (frontend) and Node.js, Express.js, and
-                GraphQL (backend).</li>
+              <li>Engineered and maintained scalable backend systems using Node.js, Express.js, and GraphQL, ensuring high performance and reliability across production environments.</li>
               <li>Designed and maintained PostgreSQL databases, leveraging PrismaORM for efficient data operations.</li>
               <li>Integrated LinkedIn and Twitter APIs into the companys CRM,
                 enabling users to view analytics, post content, delete posts, and
@@ -135,7 +139,7 @@ function App() {
           <p>🔹 Designed a Next.js frontend for a responsive and user-friendly interface.</p>
           <p>🔹 Enabled the system to provide accurate, up-to-date answers on global news topics.</p>
 
-          <a className="project-link" href="https://github.com/Adnangad/news-qa-system" target="_blank" rel="noopener noreferrer">
+          <a className="project-link" href="https://github.com/Adnangad/interactive_QA_system" target="_blank" rel="noopener noreferrer">
             View Project on GitHub
           </a>
 
