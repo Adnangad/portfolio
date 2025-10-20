@@ -30,30 +30,30 @@ function Header() {
                     className={`nav-item ${active === "skills" ? "active" : ""}`}
                     onClick={(e) => {
                         e.preventDefault();
-                        handleClick("skills");
-                    }}
-                >
-                    skills
-                </a>
-                <a
-                    href="#experience"
-                    className={`nav-item ${active === "experience" ? "active" : ""}`}
-                    onClick={(e) => {
-                        e.preventDefault();
                         handleClick("experience");
                     }}
                 >
                     experience
                 </a>
                 <a
-                    href="#projects"
-                    className={`nav-item ${active === "projects" ? "active" : ""}`}
+                    href="#experience"
+                    className={`nav-item ${active === "experience" ? "active" : ""}`}
                     onClick={(e) => {
                         e.preventDefault();
                         handleClick("projects");
                     }}
                 >
-                    projects
+                    sample projects
+                </a>
+                <a
+                    href="#projects"
+                    className={`nav-item ${active === "projects" ? "active" : ""}`}
+                    onClick={(e) => {
+                        e.preventDefault();
+                        handleClick("skills");
+                    }}
+                >
+                    skills
                 </a>
                 <a
                     href="#contact"
