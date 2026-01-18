@@ -75,8 +75,8 @@ function App() {
                 enabling users to view analytics, post content, delete posts, and
                 analyze comment sentiment</li>
               <li>Led backend development for a comprehensive school management
-                system, handling core functionality and system architecture
-                Wrote clean, maintainable, and well-documented code following
+                system, handling core functionality and system architecture.</li>
+              <li>Wrote clean, maintainable, and well-documented code following
                 industry best practices</li>
             </ul>
           </div>
@@ -91,8 +91,33 @@ function App() {
           </div>
         </div>
       </section>
-      <h2>Sample Projects:</h2>
+      <h2>Selected Backend & Systems Projects:</h2>
       <section id="projects" className="projects">
+        <div className="project-card">
+          <h3>Custom RDBMS (Relational Database Engine)</h3>
+
+          <p>🔹 Built a lightweight relational database management system from scratch using Python, featuring SQL-like syntax and persistent storage.</p>
+
+          <p>🔹 Implemented core SQL operations including CREATE, INSERT, SELECT, UPDATE, DELETE, DROP, and ALTER TABLE with constraint enforcement.</p>
+
+          <p>🔹 Designed a custom SQL parser to transform queries into executable operations, supporting WHERE clauses, JOINs, and comparison operators.</p>
+
+          <p>🔹 Implemented indexing for primary key and unique columns, enabling O(1) lookups and improved query performance.</p>
+
+          <p>🔹 Built an interactive REPL for direct SQL execution and a FastAPI + React web interface for visual database interaction.</p>
+
+          <p>🔹 Implemented JSON-based persistence with automatic serialization/deserialization and data integrity validation.</p>
+
+          <a
+            className="project-link"
+            href="https://github.com/Adnangad/RDBMS"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Project on GitHub
+          </a>
+        </div>
+
         <div className="project-card">
           <h3>Career Copilot App</h3>
           <p>🔹 Developed an AI-powered platform that helps job seekers discover and analyze opportunities.</p>
@@ -109,6 +134,18 @@ function App() {
             View Project On GitHub
           </a>
 
+        </div>
+        <div className='project-card'>
+          <h3>Social Media App</h3>
+          <p>🔹 Built a scalable social media platform with user authentication, post
+            creation, and real-time like/follow interactions using Node.js, GraphQL,
+            and PostgreSQL.</p>
+          <p>🔹 Optimized GraphQL queries to improve data retrieval by 30%, enabling
+            a smooth, dynamic user feed experience.</p>
+          <p>🔹 Integrated secure image upload functionality and user account management features, enhancing user engagement.</p>
+          <a className="project-link" href="https://github.com/Adnangad/goymarey_project" target="_blank" rel="noopener noreferrer">
+            View Project on GitHub
+          </a>
         </div>
         <div className="project-card">
           <h3>Interactive News QA System</h3>
@@ -132,15 +169,12 @@ function App() {
             View Project on GitHub
           </a>
         </div>
-        <div className='project-card'>
-          <h3>Social Media App</h3>
-          <p>🔹 Built a scalable social media platform with user authentication, post
-            creation, and real-time like/follow interactions using Node.js, GraphQL,
-            and PostgreSQL.</p>
-          <p>🔹 Optimized GraphQL queries to improve data retrieval by 30%, enabling
-            a smooth, dynamic user feed experience.</p>
-          <p>🔹 Integrated secure image upload functionality and user account management features, enhancing user engagement.</p>
-          <a className="project-link" href="https://github.com/Adnangad/goymarey_project" target="_blank" rel="noopener noreferrer">
+        <div className="project-card">
+          <h3>E-Commerce Web App</h3>
+          <p>🔹 Developed an end-to-end e-commerce application with Flask, featuring user authentication, dynamic product browsing, and secure cart management.</p>
+          <p>🔹 Implemented a seamless checkout process, reducing user drop-off rate during purchasing by 25%.</p>
+          <p>🔹 Designed a clean, responsive UI using HTML/CSS for optimal desktop and mobile experience.</p>
+          <a className="project-link" href="https://github.com/Adnangad/Iman_caffe_project" target="_blank" rel="noopener noreferrer">
             View Project on GitHub
           </a>
         </div>
@@ -152,15 +186,6 @@ function App() {
           <p>🔹 Allows users to input medical data like blood sugar level and instantly receive risk assessment.</p>
 
           <a className="project-link" href="https://github.com/Adnangad/diabetes_predictor" target="_blank" rel="noopener noreferrer">
-            View Project on GitHub
-          </a>
-        </div>
-        <div className="project-card">
-          <h3>E-Commerce Web App</h3>
-          <p>🔹 Developed an end-to-end e-commerce application with Flask, featuring user authentication, dynamic product browsing, and secure cart management.</p>
-          <p>🔹 Implemented a seamless checkout process, reducing user drop-off rate during purchasing by 25%.</p>
-          <p>🔹 Designed a clean, responsive UI using HTML/CSS for optimal desktop and mobile experience.</p>
-          <a className="project-link" href="https://github.com/Adnangad/Iman_caffe_project" target="_blank" rel="noopener noreferrer">
             View Project on GitHub
           </a>
         </div>
