@@ -117,6 +117,24 @@ function App() {
             View Project on GitHub
           </a>
         </div>
+        <div className="project-card">
+          <h3>Simple Celery (Distributed Task Queue System)</h3>
+          <p>🔹 Built a lightweight Celery-inspired asynchronous task queue using Python and Redis.</p>
+          <p>🔹 Designed worker pool architecture supporting parallel task execution with configurable worker counts.</p>
+          <p>🔹 Implemented multi-level priority queues (CRITICAL, HIGH, NORMAL, LOW) for optimized task scheduling.</p>
+          <p>🔹 Developed automatic retry logic, structured failure handling, and JSON-based task serialization.</p>
+          <p>🔹 Implemented task lifecycle logging including execution status, retry tracking, and worker monitoring.</p>
+
+          <a
+            className="project-link"
+            href="https://github.com/Adnangad/distributed_task_que_system"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Project on GitHub
+          </a>
+        </div>
+
 
         <div className="project-card">
           <h3>Career Copilot App</h3>
