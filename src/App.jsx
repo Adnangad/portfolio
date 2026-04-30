@@ -66,6 +66,18 @@ function App() {
         <h2>Experience</h2>
         <div className='expCont' style={{ display: "flex", gap: "20px", alignItems: "flex-start" }}>
           <div className="experience-item">
+            <h3>Backend Developer - Dumu Afya</h3>
+            <p className="date">FEB 2026 - PRESENT</p>
+            <ul>
+              <li>Design and build backend services and integrations in Python and TypeScript, and contribute to architecture for scalable, production-ready systems.</li>
+              <li>Deploy and operate applications on AWS (including ECS), using CloudWatch logs and monitoring to diagnose and trace production issues.</li>
+              <li>Implement event-driven workflows with AWS Step Functions and EventBridge to orchestrate reliable push notifications and decoupled service communication.</li>
+              <li>Deliver an AI-connected chat experience using Server-Sent Events (SSE), streaming responses token-by-token from backend services to clients.</li>
+              <li>Integrate Twilio WhatsApp with approved messaging templates to power backend-driven automated user communication.</li>
+              <li>Integrate AI-powered services and internal systems to automate data extraction, improve data flow, and reduce manual processing.</li>
+            </ul>
+          </div>
+          <div className="experience-item">
             <h3>Backend Developer Intern(Fullstack exposure) - Goymarey Software Solutions</h3>
             <p className="date">APR 2025 - JULY 2025</p>
             <ul>
@@ -148,7 +160,7 @@ function App() {
           <a className="project-link" href="https://career-copilot.netlify.app/" target="_blank" rel="noopener noreferrer">
             View Live Project
           </a>
-           <a className="project-link" href="https://github.com/Adnangad/career_copilot" target="_blank" rel="noopener noreferrer">
+          <a className="project-link" href="https://github.com/Adnangad/career_copilot" target="_blank" rel="noopener noreferrer">
             View Project On GitHub
           </a>
 
@@ -213,36 +225,42 @@ function App() {
         <div className="skills-list">
           <h4>Backend:</h4>
           <ul>
-            <li>Node.js (Express.js, TypeScript, Prisma ORM)</li>
-            <li>Python (Django, Flask, FastAPI)</li>
-            <li>PHP (Laravel)</li>
-            <li>REST APIs & GraphQL</li>
+            <li>Python, Node.js, TypeScript, JavaScript, C, PHP</li>
+            <li>Django, Flask, FastAPI, Express.js, Laravel, Next.js</li>
+            <li>REST APIs, GraphQL, Server-Sent Events (SSE), streaming responses</li>
           </ul>
           <h4>Frontend:</h4>
           <ul>
-            <li>JavaScript (ES6+), TypeScript</li>
-            <li>React.js, Next.js</li>
-            <li>HTML5, CSS3, Tailwind CSS, Bootstrap</li>
+            <li>React.js, HTML5, Tailwind CSS, Bootstrap</li>
           </ul>
 
           <h4>Databases:</h4>
           <ul>
-            <li>PostgreSQL, MySQL</li>
-            <li>MongoDB (basic), Redis</li>
+            <li>SQL, PostgreSQL, MySQL, MongoDB, Redis</li>
           </ul>
 
-          <h4>DevOps & Tools:</h4>
+          <h4>Cloud & AWS:</h4>
           <ul>
-            <li>Docker</li>
-            <li>Git & GitHub</li>
-            <li>Linux CLI</li>
+            <li>Application deployment, ECS, CloudWatch (logs and monitoring)</li>
+            <li>Step Functions, EventBridge, event-driven architecture, workflow automation</li>
+            <li>System integrations</li>
+          </ul>
+
+          <h4>Integrations & Messaging:</h4>
+          <ul>
+            <li>Twilio WhatsApp</li>
+            <li>Twilio messaging templates</li>
+          </ul>
+
+          <h4>Tools & DevOps:</h4>
+          <ul>
+            <li>Git, Docker, JSON, WebSockets</li>
+            <li>Web scraping and automation</li>
           </ul>
 
           <h4>Data, AI & Automation:</h4>
           <ul>
-            <li>Web Scraping & Automation (Selenium, BeautifulSoup)</li>
-            <li>Pandas & Scikit-learn (ML fundamentals)</li>
-            <li>Large Language Models (LLaMA, RAG implementation)</li>
+            <li>LLMs, Pandas, Scikit-learn, machine learning fundamentals</li>
           </ul>
         </div>
       </section>
